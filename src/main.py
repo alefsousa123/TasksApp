@@ -5,8 +5,8 @@ import os
 import json
 
 # Caminhos absolutos para os arquivos de imagem (ajuste conforme necessário)
-edit_image_path = "C:/Users/lefaz/OneDrive/Documentos/GitHub/TasksApp/edit.png"
-delete_image_path = "C:/Users/lefaz/OneDrive/Documentos/GitHub/TasksApp/delete.png"
+edit_image_path = "./assets/edit.png"
+delete_image_path = "./assets/delete.png"
 
 # Função para carregar imagem com verificação
 def carregar_imagem(caminho):
